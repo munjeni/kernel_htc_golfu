@@ -2441,7 +2441,7 @@ static ssize_t golfu_virtual_keys_show(struct kobject *kobj,
 	return sprintf(buf,
 		__stringify(EV_KEY) ":" __stringify(KEY_BACK)	    ":45:526:60:65"
 		":" __stringify(EV_KEY) ":" __stringify(KEY_HOME)   ":160:526:68:65"
-		":" __stringify(EV_KEY) ":" __stringify(KEY_APP_SWITCH) ":275:526:62:65"
+		":" __stringify(EV_KEY) ":" __stringify(KEY_MENU) ":275:526:62:65"
 		"\n");
 }
 
